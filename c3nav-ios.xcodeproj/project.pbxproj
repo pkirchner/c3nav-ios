@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBA11571E13102400D00625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA11561E13102400D00625 /* main.m */; };
+		ADBA115A1E13102400D00625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA11591E13102400D00625 /* AppDelegate.m */; };
+		ADBA115D1E13102400D00625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA115C1E13102400D00625 /* ViewController.m */; };
+		ADBA11601E13102400D00625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBA115E1E13102400D00625 /* Main.storyboard */; };
+		ADBA11631E13102400D00625 /* c3nav_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADBA11611E13102400D00625 /* c3nav_ios.xcdatamodeld */; };
+		ADBA11651E13102400D00625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBA11641E13102400D00625 /* Assets.xcassets */; };
+		ADBA11681E13102400D00625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBA11661E13102400D00625 /* LaunchScreen.storyboard */; };
+		ADBA11731E13102400D00625 /* c3nav_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA11721E13102400D00625 /* c3nav_iosTests.m */; };
+		ADBA117E1E13102400D00625 /* c3nav_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBA117D1E13102400D00625 /* c3nav_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBA116F1E13102400D00625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBA114A1E13102400D00625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBA11511E13102400D00625;
+			remoteInfo = "c3nav-ios";
+		};
+		ADBA117A1E13102400D00625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBA114A1E13102400D00625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBA11511E13102400D00625;
+			remoteInfo = "c3nav-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADBA11521E13102400D00625 /* c3nav-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "c3nav-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA11561E13102400D00625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBA11581E13102400D00625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBA11591E13102400D00625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBA115B1E13102400D00625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADBA115C1E13102400D00625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADBA115F1E13102400D00625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBA11621E13102400D00625 /* c3nav_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = c3nav_ios.xcdatamodel; sourceTree = "<group>"; };
+		ADBA11641E13102400D00625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBA11671E13102400D00625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBA11691E13102400D00625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBA116E1E13102400D00625 /* c3nav-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "c3nav-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA11721E13102400D00625 /* c3nav_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c3nav_iosTests.m; sourceTree = "<group>"; };
+		ADBA11741E13102400D00625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBA11791E13102400D00625 /* c3nav-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "c3nav-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBA117D1E13102400D00625 /* c3nav_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c3nav_iosUITests.m; sourceTree = "<group>"; };
+		ADBA117F1E13102400D00625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBA114F1E13102400D00625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA116B1E13102400D00625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA11761E13102400D00625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBA11491E13102400D00625 = {
+			isa = PBXGroup;
+			children = (
+				ADBA11541E13102400D00625 /* c3nav-ios */,
+				ADBA11711E13102400D00625 /* c3nav-iosTests */,
+				ADBA117C1E13102400D00625 /* c3nav-iosUITests */,
+				ADBA11531E13102400D00625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBA11531E13102400D00625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA11521E13102400D00625 /* c3nav-ios.app */,
+				ADBA116E1E13102400D00625 /* c3nav-iosTests.xctest */,
+				ADBA11791E13102400D00625 /* c3nav-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBA11541E13102400D00625 /* c3nav-ios */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA11581E13102400D00625 /* AppDelegate.h */,
+				ADBA11591E13102400D00625 /* AppDelegate.m */,
+				ADBA115B1E13102400D00625 /* ViewController.h */,
+				ADBA115C1E13102400D00625 /* ViewController.m */,
+				ADBA115E1E13102400D00625 /* Main.storyboard */,
+				ADBA11641E13102400D00625 /* Assets.xcassets */,
+				ADBA11661E13102400D00625 /* LaunchScreen.storyboard */,
+				ADBA11691E13102400D00625 /* Info.plist */,
+				ADBA11611E13102400D00625 /* c3nav_ios.xcdatamodeld */,
+				ADBA11551E13102400D00625 /* Supporting Files */,
+			);
+			path = "c3nav-ios";
+			sourceTree = "<group>";
+		};
+		ADBA11551E13102400D00625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA11561E13102400D00625 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADBA11711E13102400D00625 /* c3nav-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA11721E13102400D00625 /* c3nav_iosTests.m */,
+				ADBA11741E13102400D00625 /* Info.plist */,
+			);
+			path = "c3nav-iosTests";
+			sourceTree = "<group>";
+		};
+		ADBA117C1E13102400D00625 /* c3nav-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA117D1E13102400D00625 /* c3nav_iosUITests.m */,
+				ADBA117F1E13102400D00625 /* Info.plist */,
+			);
+			path = "c3nav-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBA11511E13102400D00625 /* c3nav-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA11821E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-ios" */;
+			buildPhases = (
+				ADBA114E1E13102400D00625 /* Sources */,
+				ADBA114F1E13102400D00625 /* Frameworks */,
+				ADBA11501E13102400D00625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "c3nav-ios";
+			productName = "c3nav-ios";
+			productReference = ADBA11521E13102400D00625 /* c3nav-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBA116D1E13102400D00625 /* c3nav-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA11851E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-iosTests" */;
+			buildPhases = (
+				ADBA116A1E13102400D00625 /* Sources */,
+				ADBA116B1E13102400D00625 /* Frameworks */,
+				ADBA116C1E13102400D00625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBA11701E13102400D00625 /* PBXTargetDependency */,
+			);
+			name = "c3nav-iosTests";
+			productName = "c3nav-iosTests";
+			productReference = ADBA116E1E13102400D00625 /* c3nav-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADBA11781E13102400D00625 /* c3nav-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA11881E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-iosUITests" */;
+			buildPhases = (
+				ADBA11751E13102400D00625 /* Sources */,
+				ADBA11761E13102400D00625 /* Frameworks */,
+				ADBA11771E13102400D00625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBA117B1E13102400D00625 /* PBXTargetDependency */,
+			);
+			name = "c3nav-iosUITests";
+			productName = "c3nav-iosUITests";
+			productReference = ADBA11791E13102400D00625 /* c3nav-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBA114A1E13102400D00625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Philipp Kirchner";
+				TargetAttributes = {
+					ADBA11511E13102400D00625 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9XSJ7B8QY4;
+						ProvisioningStyle = Automatic;
+					};
+					ADBA116D1E13102400D00625 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9XSJ7B8QY4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADBA11511E13102400D00625;
+					};
+					ADBA11781E13102400D00625 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9XSJ7B8QY4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADBA11511E13102400D00625;
+					};
+				};
+			};
+			buildConfigurationList = ADBA114D1E13102400D00625 /* Build configuration list for PBXProject "c3nav-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBA11491E13102400D00625;
+			productRefGroup = ADBA11531E13102400D00625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBA11511E13102400D00625 /* c3nav-ios */,
+				ADBA116D1E13102400D00625 /* c3nav-iosTests */,
+				ADBA11781E13102400D00625 /* c3nav-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBA11501E13102400D00625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA11681E13102400D00625 /* LaunchScreen.storyboard in Resources */,
+				ADBA11651E13102400D00625 /* Assets.xcassets in Resources */,
+				ADBA11601E13102400D00625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA116C1E13102400D00625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA11771E13102400D00625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBA114E1E13102400D00625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA115D1E13102400D00625 /* ViewController.m in Sources */,
+				ADBA115A1E13102400D00625 /* AppDelegate.m in Sources */,
+				ADBA11571E13102400D00625 /* main.m in Sources */,
+				ADBA11631E13102400D00625 /* c3nav_ios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA116A1E13102400D00625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA11731E13102400D00625 /* c3nav_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBA11751E13102400D00625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA117E1E13102400D00625 /* c3nav_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBA11701E13102400D00625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBA11511E13102400D00625 /* c3nav-ios */;
+			targetProxy = ADBA116F1E13102400D00625 /* PBXContainerItemProxy */;
+		};
+		ADBA117B1E13102400D00625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBA11511E13102400D00625 /* c3nav-ios */;
+			targetProxy = ADBA117A1E13102400D00625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADBA115E1E13102400D00625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBA115F1E13102400D00625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBA11661E13102400D00625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBA11671E13102400D00625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBA11801E13102400D00625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBA11811E13102400D00625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBA11831E13102400D00625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADBA11841E13102400D00625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADBA11861E13102400D00625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/c3nav-ios.app/c3nav-ios";
+			};
+			name = Debug;
+		};
+		ADBA11871E13102400D00625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/c3nav-ios.app/c3nav-ios";
+			};
+			name = Release;
+		};
+		ADBA11891E13102400D00625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "c3nav-ios";
+			};
+			name = Debug;
+		};
+		ADBA118A1E13102400D00625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9XSJ7B8QY4;
+				INFOPLIST_FILE = "c3nav-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.c3nav.c3nav-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "c3nav-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBA114D1E13102400D00625 /* Build configuration list for PBXProject "c3nav-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA11801E13102400D00625 /* Debug */,
+				ADBA11811E13102400D00625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBA11821E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA11831E13102400D00625 /* Debug */,
+				ADBA11841E13102400D00625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADBA11851E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA11861E13102400D00625 /* Debug */,
+				ADBA11871E13102400D00625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADBA11881E13102400D00625 /* Build configuration list for PBXNativeTarget "c3nav-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBA11891E13102400D00625 /* Debug */,
+				ADBA118A1E13102400D00625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADBA11611E13102400D00625 /* c3nav_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADBA11621E13102400D00625 /* c3nav_ios.xcdatamodel */,
+			);
+			currentVersion = ADBA11621E13102400D00625 /* c3nav_ios.xcdatamodel */;
+			path = c3nav_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADBA114A1E13102400D00625 /* Project object */;
+}
