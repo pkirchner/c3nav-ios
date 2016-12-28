@@ -56,12 +56,17 @@
         //example: '[{"bssid":"94:b4:0f:84:88:50","ssid":"33C3","level":-59,"frequency":5220,"last":44},{"bssid":"94:b4:0f:84:88:51","ssid":"spacenet","level":-63,"frequency":5220,"last":44}]'
         jsonwifi[@"ssid"] = wifidetails[@"SSID"];
         NSString *bssid = wifidetails[@"BSSID"];
-        if([[bssid componentsSeparatedByString:@":"] objectAtIndex:0].length==1){
-            jsonwifi[@"bssid"] = [NSString stringWithFormat:@"0%@",wifidetails[@"BSSID"]];
-        }else{
-            jsonwifi[@"bssid"] = wifidetails[@"BSSID"];
+        NSArray *bssidArray = [bssid componentsSeparatedByString:@":"];
+        NSMutableArray *bssidArray2 = [NSMutableArray array];
+        bssid = @"";
+        for(NSString* part in bssidArray){
+            if(part.length==1){
+                [bssidArray2 addObject:[NSString stringWithFormat:@"0%@", part]];
+            }else{
+                [bssidArray2 addObject:part];
+            }
         }
-        
+        jsonwifi[@"bssid"] = [bssidArray2 componentsJoinedByString:@":"];
         jsonwifi[@"level"] = @-50;
         jsonwifi[@"frequency"] = @5220;
         jsonwifi[@"last"] = [NSNumber numberWithInt:[NSDate timeIntervalSinceReferenceDate]];
